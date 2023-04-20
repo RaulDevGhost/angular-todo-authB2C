@@ -32,6 +32,10 @@ const routes: Routes = [
         component: MsalRedirectComponent
     },
     {
+      path: 'test',
+      component: HomeComponent
+    },
+    {
         path: '',
         component: HomeComponent
     }
